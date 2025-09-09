@@ -4,11 +4,27 @@ A lean, offline-first water usage tracker for households and small landlords in 
 
 ---
 
+## About / SDG Impact
+
+**Water usage tracking app for households and small landlords**  
+You’re building for real people in Nakuru who live with water uncertainty. This MVP starts with **one thing that’s useful on day one, measurable within weeks, and expandable into IoT and city-scale later**:  
+
+- A lean, offline-first water usage tracker that helps households and small landlords:
+  - Cut water waste
+  - Spot leaks fast
+  - Plan and manage bills  
+- No smart meters required at the start  
+
+**SDG Alignment:** This project contributes directly to **[Sustainable Development Goal 6: Clean Water and Sanitation](https://sdgs.un.org/goals/goal6)** by promoting responsible water usage, leak detection, and conservation at the household and small-property level.  
+
+---
+
 ## Features
 - User registration / login (phone-based)
 - Properties management
 - Meters management
 - Modular architecture ready for OCR, readings, alerts, and offline-first caching
+- Multi-language support (English / Swahili)
 
 ---
 
@@ -18,11 +34,10 @@ A lean, offline-first water usage tracker for households and small landlords in 
 ```bash
 git clone <repo-url>
 cd water-tracker-backend
+
 ```
 2. Create .env file:
 ```bash
-env
-Copy code
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
 POSTGRES_DB=watertracker
@@ -31,7 +46,6 @@ POSTGRES_HOST=db
 3. Run Docker containers:
 
 ```bash
-Copy code
 docker-compose up --build
 ```
 4. Access API: http://localhost:8000
@@ -41,14 +55,12 @@ Swagger docs: http://localhost:8000/docs
 1. Install dependencies:
 
 ```bash
-Copy code
 cd water-tracker-app
 npm install
 ```
 2. Run Expo:
 
 ```bash
-Copy code
 npm start
 ```
 3. Open in Android/iOS simulator or physical device (Expo Go app)
