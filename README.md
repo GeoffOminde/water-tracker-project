@@ -7,7 +7,7 @@ A lean, offline-first water usage tracker for households and small landlords in 
 ## About / SDG Impact
 
 **Water usage tracking app for households and small landlords**  
-You’re building for real people in Nakuru who live with water uncertainty. This MVP starts with **one thing that’s useful on day one, measurable within weeks, and expandable into IoT and city-scale later**:  
+I am building for real people in Nakuru who live with water uncertainty. This MVP starts with **one thing that’s useful on day one, measurable within weeks, and expandable into IoT and city-scale later**:  
 
 - A lean, offline-first water usage tracker that helps households and small landlords:
   - Cut water waste
